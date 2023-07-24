@@ -226,3 +226,32 @@ header {
   cursor: pointer;
   z-index: 1;
 }
+
+/* --------------------media queries------------------- */
+
+@media screen and (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation .btn_popup {
+    margin-left: 139px;
+    margin-top: 33px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation a {
+    margin-left: 34px;
+  }
+
+  .navigation {
+    width: 407px;
+    padding-top: 25px;
+  }
+}
